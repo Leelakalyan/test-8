@@ -1,0 +1,36 @@
+
+#write a program pass&fail of a student
+sno=int(input('enter number:'))
+sname=input('enter name:')
+sgroup=input('enter group:')
+s1=int(input('maths marks:'))
+s2=int(input('chemistry marks:'))
+s3=int(input('computers marks:'))
+s4=int(input('sanskrit marks:'))
+s5=int(input('english marks:'))
+s6=int(input('electrical appliances:'))
+if s1>=35 and s2>=35 and s3>=35 and s4>=35 and s5>=35 and s6>35:
+    print('pass')
+else:
+    print('fail')
+    
+Output:
+enter number:
+1
+enter name:
+Kalyan
+enter group:
+Mccs
+maths marks:
+96
+chemistry marks:
+88
+computers marks:
+85
+sanskrit marks:
+98
+english marks:
+80
+electrical appliances:
+75
+pass
